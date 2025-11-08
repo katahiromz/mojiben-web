@@ -1,0 +1,23 @@
+{
+  "name": "genericapp",
+  "version": "0.0.0",
+  "description": "generic application",
+  "license": "Apache-2.0",
+  "author": "katahiromz",
+  "type": "commonjs",
+  "main": "main.ts",
+  "scripts": {
+    "prebuild": "cp -fr src/* dist/ && rm -fr dist/*.ts",
+    "build": "tsc && webpack --mode development",
+    "test": "http-server ./dist -o"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.1",
+    "http-server": "^14.1.1",
+    "ts-loader": "^9.5.4",
+    "typescript": "^5.9.3",
+    "uglify-js": "^3.19.3",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1"
+  }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GenericApp</title>
+  <meta name="google" content="notranslate" />
+  <meta name="keywords" content="GenericApp,katahiromz" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <script defer type="module" src="translation.js" delay></script>
+  <script defer type="module" src="main.js" delay></script>
+  <!-- [[Open Graph Protocol]] FROM HERE -->
+  <meta property="og:title" content="GenericApp" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://katahiromz.github.io/GenericApp/" />
+  <meta property="og:image" content="https://katahiromz.github.io/GenericApp/img/GenericApp-192x192.png" />
+  <meta property="og:site_name" content="GenericApp" />
+  <meta property="og:description" content="A generic app." />
+  <meta name="twitter:card" content="summary" />
+  <!-- [[Open Graph Protocol]] DOWN TO HERE -->
+</head>
+<body>
+  <h1 data-i18n="TEXT_APP_NAME">GenericApp</h1>
+  <p id="my-paragraph" data-i18n="TEXT_SAMPLE_TEXT">Hello, GenericApp.</p>
+  <div>
+    <button id="my-button-1"><span data-i18n="TEXT_BUTTON">Button</span> 1</button>
+    <button id="my-button-2"><span data-i18n="TEXT_BUTTON">Button</span> 2</button>
+    <button id="my-button-3"><span data-i18n="TEXT_BUTTON">Button</span> 3</button>
+    <button id="my-button-4"><span data-i18n="TEXT_BUTTON">Button</span> 4</button>
+    <button id="my-button-5"><span data-i18n="TEXT_BUTTON">Button</span> 5</button>
+    <button id="my-button-6"><span data-i18n="TEXT_BUTTON">Button</span> 6</button>
+    <button id="my-button-7"><span data-i18n="TEXT_BUTTON">Button</span> 7</button>
+    <button id="my-button-8"><span data-i18n="TEXT_BUTTON">Button</span> 8</button>
+    <button id="my-button-9"><span data-i18n="TEXT_BUTTON">Button</span> 9</button>
+  </div>
+  <div>
+    Choose language:
+    <!-- {{LANGUAGE_SPECIFIC}} TODO: Add the language(s) ​​you need and remove the ones you don't need. -->
+    <select id="my-language-select">
+      <option value="de-DE">German</option>
+      <option value="en-US" selected>English</option>
+      <option value="es-ES">Spanish</option>
+      <option value="it-IT">Italian</option>
+      <option value="ja-JP">Japanese</option>
+      <option value="ko-KR">Korean</option>
+      <option value="ru-RU">Russian</option>
+      <option value="zh-CN">Chinese (Simplified)</option>
+      <option value="zh-TW">Chinese (Traditional)</option>
+    </select>
+  </div>
+</body>
+</html>
