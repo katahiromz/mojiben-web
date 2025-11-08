@@ -7,8 +7,8 @@
   "type": "commonjs",
   "main": "main.ts",
   "scripts": {
-    "prebuild": "cp -fr src/* dist/ && rm -fr dist/*.ts",
-    "build": "tsc && webpack --mode development",
+    "prebuild": "cp -fr src/img src/index.html src/style.css dist/",
+    "build": "webpack --mode development",
     "test": "http-server ./dist -o"
   },
   "devDependencies": {

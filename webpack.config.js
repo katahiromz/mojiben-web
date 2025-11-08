@@ -39,6 +39,6 @@ module.exports = {
      * 
      * 検索は配列の左から順番に行う。
      */
-    extensions: ['.ts', '.js']
+    extensions: ['.js', '.ts']
  }
 }
